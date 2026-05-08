@@ -33,8 +33,6 @@ ESPN's public scoreboard API (no key):
 https://site.api.espn.com/apis/site/v2/sports/{sport}/{league}/scoreboard
 ```
 
-To use a different API, implement `ScoresService` and register it in `AppEnvironment.live()`.
-
 ## Tests
 
 Unit tests use Swift Testing. Run with `⌘U` in Xcode.
