@@ -15,14 +15,14 @@ struct LiveScoresViewModelTests {
         let now = Date()
         let scheduled = ScoreboardEvent(
             id: "a", startDate: now.addingTimeInterval(3600), status: .scheduled,
-            home: Competitor(name: "A", shortName: "A", logoURL: nil, score: nil, record: nil, primaryColor: nil),
-            away: Competitor(name: "B", shortName: "B", logoURL: nil, score: nil, record: nil, primaryColor: nil),
+            home: Competitor(name: "A", shortName: "A", logoURL: nil, score: nil, record: nil, primaryColor: nil, secondaryColor: nil),
+            away: Competitor(name: "B", shortName: "B", logoURL: nil, score: nil, record: nil, primaryColor: nil, secondaryColor: nil),
             venue: nil
         )
         let live = ScoreboardEvent(
             id: "b", startDate: now, status: .inProgress(detail: "Q1"),
-            home: Competitor(name: "C", shortName: "C", logoURL: nil, score: 0, record: nil, primaryColor: nil),
-            away: Competitor(name: "D", shortName: "D", logoURL: nil, score: 0, record: nil, primaryColor: nil),
+            home: Competitor(name: "C", shortName: "C", logoURL: nil, score: 0, record: nil, primaryColor: nil, secondaryColor: nil),
+            away: Competitor(name: "D", shortName: "D", logoURL: nil, score: 0, record: nil, primaryColor: nil, secondaryColor: nil),
             venue: nil
         )
 
