@@ -25,4 +25,4 @@ jobs:
         run: xcodebuild -project "No Nonsense Sports.xcodeproj" -scheme "No Nonsense Sports" -destination "platform=iOS Simulator,name=iPhone 16" build
 
       - name: Test
-        run: xcodebuild test -project "No Nonsense Sports.xcodeproj" -scheme "No Nonsense Sports" -destination "platform=iOS Simulator,name=iPhone 16" -only-testing:No_Nonsense_SportsTests
+        run: xcodebuild test -project "No Nonsense Sports.xcodeproj" -scheme "No Nonsense Sports" -destination "platform=iOS Simulator,name=iPhone 16"

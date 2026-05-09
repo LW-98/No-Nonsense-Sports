@@ -28,7 +28,8 @@ final class No_Nonsense_SportsUITests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
 
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        // Basic smoke test - verify app launched
+        XCTAssertTrue(app.exists)
     }
 
     @MainActor
