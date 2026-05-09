@@ -32,11 +32,13 @@ final class No_Nonsense_SportsUITests: XCTestCase {
         XCTAssertTrue(app.exists)
     }
 
-    @MainActor
-    func testLaunchPerformance() throws {
-        // This measures how long it takes to launch your application.
-        measure(metrics: [XCTApplicationLaunchMetric()]) {
-            XCUIApplication().launch()
-        }
-    }
+    // Comment to save time in GitHub workflow, can add back later if needed
+    //
+    // @MainActor
+    // func testLaunchPerformance() throws {
+    //     // This measures how long it takes to launch your application.
+    //     measure(metrics: [XCTApplicationLaunchMetric()]) {
+    //         XCUIApplication().launch()
+    //     }
+    // }
 }

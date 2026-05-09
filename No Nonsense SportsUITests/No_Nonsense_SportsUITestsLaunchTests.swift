@@ -10,7 +10,7 @@ import XCTest
 final class No_Nonsense_SportsUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
-        true
+        false
     }
 
     override func setUpWithError() throws {

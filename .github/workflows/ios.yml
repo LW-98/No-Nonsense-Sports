@@ -54,7 +54,9 @@ jobs:
             -parallel-testing-enabled NO \
             -maximum-concurrent-test-simulator-destinations 1 \
             -resultBundlePath TestResults.xcresult \
-            clean test
+            -skipPackagePluginValidation \
+            -skipMacroValidation \
+            test
 
       - name: Upload xcresult
         if: always()
